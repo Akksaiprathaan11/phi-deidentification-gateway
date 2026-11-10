@@ -1,0 +1,39 @@
+{
+    "experiment": "PHI Leak-Rate Evaluation",
+    "created_at_utc": "2026-11-10T13:52:52.799807+00:00",
+    "test_notes": 20,
+    "total_gold_entities": 61,
+    "fully_masked_entities": 54,
+    "partially_leaked_entities": 1,
+    "fully_leaked_entities": 6,
+    "total_leaked_entities": 7,
+    "entity_leak_rate_percent": 11.48,
+    "notes_with_at_least_one_leak": 7,
+    "note_leak_rate_percent": 35.0,
+    "per_entity_type": {
+        "DATE": {
+            "gold": 20,
+            "fully_masked": 20,
+            "partially_leaked": 0,
+            "fully_leaked": 0,
+            "leaked_entities": 0,
+            "leak_rate_percent": 0.0
+        },
+        "LOCATION": {
+            "gold": 21,
+            "fully_masked": 14,
+            "partially_leaked": 1,
+            "fully_leaked": 6,
+            "leaked_entities": 7,
+            "leak_rate_percent": 33.33
+        },
+        "NAME": {
+            "gold": 20,
+            "fully_masked": 20,
+            "partially_leaked": 0,
+            "fully_leaked": 0,
+            "leaked_entities": 0,
+            "leak_rate_percent": 0.0
+        }
+    }
+}

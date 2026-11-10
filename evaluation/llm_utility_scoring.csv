@@ -1,0 +1,6 @@
+note_number,original_answer,masked_answer,original_usefulness_1_to_5,masked_usefulness_1_to_5,fact_preservation_1_to_5,hallucination_observed,meaning_preserved,reviewer_comments
+1,Patient John Smith visited Chennai on 12 May 2026.,Patient [NAME_1] visited [LOCATION_1] on [DATE_1].,,,,,,
+2,Dr. Aarav Sharma consulted patients in Mumbai on 15 June 2026.,[NAME_1] and [NAME_2] consulted patients in [LOCATION_1] on [DATE_1].,,,,,,
+3,Ananya Iyer traveled from Bengaluru to Kolkata on 20 July 2026.,[NAME_1] [NAME_2] traveled from [LOCATION_1] to [LOCATION_2] on [DATE_1].,,,,,,
+4,Rohan Gupta attended a conference in New Delhi on 05 August 2026.,[NAME_1] attended a conference in New [LOCATION_1] on [DATE_1].,,,,,,
+5,Priya Nair checked into a hotel in Hyderabad on 10 September 2026.,[NAME_1] [NAME_2] checked into a hotel located in [LOCATION_1] on [DATE_1].,,,,,,

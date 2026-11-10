@@ -1,0 +1,110 @@
+{
+    "system": "DistilBERT PHI De-identification Model",
+    "test_notes": 20,
+    "model_parameters": 66383643,
+    "matching_method": "Exact token-span, entity-type and note-ID match",
+    "truncated_notes": [],
+    "overall": {
+        "TP": 19,
+        "FP": 48,
+        "FN": 42,
+        "precision": 0.2836,
+        "recall": 0.3115,
+        "f1": 0.2969
+    },
+    "per_entity": {
+        "NAME": {
+            "TP": 5,
+            "FP": 34,
+            "FN": 15,
+            "precision": 0.1282,
+            "recall": 0.25,
+            "f1": 0.1695,
+            "gold_count": 20,
+            "predicted_count": 39,
+            "status": "Evaluated"
+        },
+        "LOCATION": {
+            "TP": 7,
+            "FP": 0,
+            "FN": 14,
+            "precision": 1.0,
+            "recall": 0.3333,
+            "f1": 0.5,
+            "gold_count": 21,
+            "predicted_count": 7,
+            "status": "Evaluated"
+        },
+        "DATE": {
+            "TP": 7,
+            "FP": 13,
+            "FN": 13,
+            "precision": 0.35,
+            "recall": 0.35,
+            "f1": 0.35,
+            "gold_count": 20,
+            "predicted_count": 20,
+            "status": "Evaluated"
+        },
+        "PHONE": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "EMAIL": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 1,
+            "false_positives": 1
+        },
+        "SSN": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "MRN": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "HEALTH_PLAN": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "ACCOUNT": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "LICENSE": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "URL": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "IP": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        },
+        "AGE_OVER_89": {
+            "status": "N/A - no gold examples in test set",
+            "gold_count": 0,
+            "predicted_count": 0,
+            "false_positives": 0
+        }
+    }
+}

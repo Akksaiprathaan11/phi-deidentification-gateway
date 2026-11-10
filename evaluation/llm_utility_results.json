@@ -1,0 +1,51 @@
+{
+    "experiment": "LLM Utility Comparison",
+    "model": "gemini-3.5-flash-lite",
+    "test_notes": 5,
+    "generation_temperature": 0,
+    "prompt": "\nYou are assisting with a synthetic patient-note analysis task.\n\nRead the supplied note and summarize its important information\nin 1-2 concise sentences.\n\nInstructions:\n- Preserve all relevant clinical or contextual facts.\n- Do not invent information or make unsupported assumptions.\n- Do not guess the identity or value represented by a redaction.\n- Treat bracketed placeholders such as [NAME_1] and [DATE_1]\n  as intentionally redacted information.\n- Do not attempt to reconstruct redacted information.\n- Do not mention that you are an AI.\n\nReturn only the summary.\n",
+    "last_updated_utc": "2026-11-10T13:21:31.337109+00:00",
+    "completed_pairs": 5,
+    "results": [
+        {
+            "note_number": 1,
+            "original_note": "Patient John Smith visited Chennai on 12 May 2026 .",
+            "masked_note": "Patient [NAME_1] visited [LOCATION_1] on [DATE_1] .",
+            "original_answer": "Patient John Smith visited Chennai on 12 May 2026.",
+            "masked_answer": "Patient [NAME_1] visited [LOCATION_1] on [DATE_1].",
+            "mapping_count": 3
+        },
+        {
+            "note_number": 2,
+            "original_note": "Dr. Aarav Sharma consulted patients in Mumbai on 15 June 2026 .",
+            "masked_note": "[NAME_1]. [NAME_2] consulted patients in [LOCATION_1] on [DATE_1] .",
+            "original_answer": "Dr. Aarav Sharma consulted patients in Mumbai on 15 June 2026.",
+            "masked_answer": "[NAME_1] and [NAME_2] consulted patients in [LOCATION_1] on [DATE_1].",
+            "mapping_count": 4
+        },
+        {
+            "note_number": 3,
+            "original_note": "Ananya Iyer traveled from Bengaluru to Kolkata on 20 July 2026 .",
+            "masked_note": "[NAME_1] [NAME_2] traveled from [LOCATION_1] to [LOCATION_2] on [DATE_1] .",
+            "original_answer": "Ananya Iyer traveled from Bengaluru to Kolkata on 20 July 2026.",
+            "masked_answer": "[NAME_1] [NAME_2] traveled from [LOCATION_1] to [LOCATION_2] on [DATE_1].",
+            "mapping_count": 5
+        },
+        {
+            "note_number": 4,
+            "original_note": "Rohan Gupta attended a conference in New Delhi on 05 August 2026 .",
+            "masked_note": "[NAME_1] attended a conference in New [LOCATION_1] on [DATE_1] .",
+            "original_answer": "Rohan Gupta attended a conference in New Delhi on 05 August 2026.",
+            "masked_answer": "[NAME_1] attended a conference in New [LOCATION_1] on [DATE_1].",
+            "mapping_count": 3
+        },
+        {
+            "note_number": 5,
+            "original_note": "Priya Nair checked into a hotel in Hyderabad on 10 September 2026 .",
+            "masked_note": "[NAME_1] [NAME_2] checked into a hotel in [LOCATION_1] on [DATE_1] .",
+            "original_answer": "Priya Nair checked into a hotel in Hyderabad on 10 September 2026.",
+            "masked_answer": "[NAME_1] [NAME_2] checked into a hotel located in [LOCATION_1] on [DATE_1].",
+            "mapping_count": 4
+        }
+    ]
+}

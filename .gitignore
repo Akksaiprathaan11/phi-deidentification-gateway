@@ -1,4 +1,3 @@
-@"
 .venv/
 venv/
 __pycache__/
@@ -9,4 +8,9 @@ outputs/
 models.zip
 models.rar
 models/phi-distilbert/
-"@ | Set-Content .gitignore
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+check_gemini.py

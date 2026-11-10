@@ -1,14 +1,25 @@
 PHI DE-IDENTIFICATION MODEL EVALUATION
-=======================================================
+===========================================================================
 Test notes: 20
 Model parameters: 66,383,643
+Matching: Exact token-span, entity-type and note-ID
+Truncated notes: 0
 
 ENTITY              PRECISION     RECALL         F1     TP     FP     FN
 ---------------------------------------------------------------------------
-DATE                   0.3500     0.3500     0.3500      7     13     13
-EMAIL                  0.0000     0.0000     0.0000      0      1      0
-LOCATION               1.0000     0.3333     0.5000      7      0     14
 NAME                   0.1282     0.2500     0.1695      5     34     15
+LOCATION               1.0000     0.3333     0.5000      7      0     14
+DATE                   0.3500     0.3500     0.3500      7     13     13
+PHONE                     N/A        N/A        N/A      -      0      -
+EMAIL                     N/A        N/A        N/A      -      1      -
+SSN                       N/A        N/A        N/A      -      0      -
+MRN                       N/A        N/A        N/A      -      0      -
+HEALTH_PLAN               N/A        N/A        N/A      -      0      -
+ACCOUNT                   N/A        N/A        N/A      -      0      -
+LICENSE                   N/A        N/A        N/A      -      0      -
+URL                       N/A        N/A        N/A      -      0      -
+IP                        N/A        N/A        N/A      -      0      -
+AGE_OVER_89               N/A        N/A        N/A      -      0      -
 ---------------------------------------------------------------------------
 OVERALL                0.2836     0.3115     0.2969     19     48     42
 
@@ -16,3 +27,5 @@ ENTITY COUNTS
 True positives: 19
 False positives: 48
 False negatives: 42
+Gold entities: 61
+Predicted entities: 67

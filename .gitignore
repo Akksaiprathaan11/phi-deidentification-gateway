@@ -7,3 +7,7 @@ models/*
 !models/.gitkeep
 outputs/
 .cache/
+
+models.zip
+models.rar
+models/phi-distilbert/

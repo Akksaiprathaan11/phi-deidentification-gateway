@@ -1,0 +1,21 @@
+note_number,text,gold_tags,predicted_tags
+1,Patient John Smith visited Chennai on 12 May 2026 .,O B-NAME I-NAME O B-LOCATION O B-DATE I-DATE I-DATE O,O B-NAME I-NAME O O O O I-DATE I-DATE O
+2,Dr. Aarav Sharma consulted patients in Mumbai on 15 June 2026 .,O B-NAME I-NAME O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME I-NAME O O O O O O O I-DATE O
+3,Ananya Iyer traveled from Bengaluru to Kolkata on 20 July 2026 .,B-NAME I-NAME O O B-LOCATION O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O B-LOCATION O O O O I-DATE I-DATE O
+4,Rohan Gupta attended a conference in New Delhi on 05 August 2026 .,B-NAME I-NAME O O O O B-LOCATION I-LOCATION O B-DATE I-DATE I-DATE O,B-NAME I-NAME O O O O O O O B-DATE I-DATE I-DATE O
+5,Priya Nair checked into a hotel in Hyderabad on 10 September 2026 .,B-NAME I-NAME O O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O B-LOCATION O O I-DATE I-DATE O
+6,Vikram Patel visited the client office in Ahmedabad on 18 October 2026 .,B-NAME I-NAME O O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O O O O I-DATE I-DATE O
+7,Neha Reddy arrived in Pune on 22 November 2026 for the meeting .,B-NAME I-NAME O O B-LOCATION O B-DATE I-DATE I-DATE O O O O,B-NAME I-NAME O O O O O I-DATE I-DATE O O O O
+8,Amit Kumar took a flight to Jaipur on 02 December 2026 .,B-NAME I-NAME O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O O B-DATE I-DATE I-DATE O
+9,Deepika Menon spoke at an event in Kochi on 14 January 2027 .,B-NAME I-NAME O O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O B-NAME O B-DATE I-DATE I-DATE O
+10,Siddharth Verma landed in Chandigarh on 08 February 2027 .,B-NAME I-NAME O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O B-EMAIL O B-DATE I-DATE I-DATE O
+11,Kavita Joshi visited her family in Lucknow on 25 March 2027 .,B-NAME I-NAME O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O B-NAME O O I-DATE I-DATE O
+12,Manoj Pillai attended a workshop in Thiruvananthapuram on 11 April 2027 .,B-NAME I-NAME O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O B-LOCATION O O I-DATE I-DATE O
+13,Sneha Deshmukh travelled to Bhopal on 30 May 2027 for official work .,B-NAME I-NAME O O B-LOCATION O B-DATE I-DATE I-DATE O O O O,B-NAME B-NAME O O O O O I-DATE I-DATE O O O O
+14,Kiran Rao met colleagues in Visakhapatnam on 14 June 2027 .,B-NAME I-NAME O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O B-LOCATION O O I-DATE I-DATE O
+15,Manish Das checked in at Patna on 03 July 2027 .,B-NAME I-NAME O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME I-NAME O O O B-LOCATION O B-DATE I-DATE I-DATE O
+16,Divya Sen arrived in Surat on 19 August 2027 .,B-NAME I-NAME O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O I-DATE I-DATE O
+17,Rahul Mehta visited Nagpur on 27 September 2027 .,B-NAME I-NAME O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O B-NAME O B-DATE I-DATE I-DATE O
+18,Pooja Bhat participated in a seminar in Indore on 04 October 2027 .,B-NAME I-NAME O O O O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O B-LOCATION O B-DATE I-DATE I-DATE O
+19,Abhishek Choudhury flew to Bhubaneswar on 12 November 2027 .,B-NAME I-NAME O O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O O O O O I-DATE I-DATE O
+20,Swati Ghosh visited Guwahati on 21 December 2027 .,B-NAME I-NAME O B-LOCATION O B-DATE I-DATE I-DATE O,B-NAME B-NAME O B-LOCATION O O I-DATE I-DATE O

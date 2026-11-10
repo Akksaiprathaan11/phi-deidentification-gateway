@@ -1,0 +1,147 @@
+
+NOTE 1
+Text: Patient John Smith visited Chennai on 12 May 2026 .
+FALSE POSITIVE [DATE]: May 2026
+FALSE NEGATIVE [DATE]: 12 May 2026
+FALSE NEGATIVE [LOCATION]: Chennai
+
+NOTE 2
+Text: Dr. Aarav Sharma consulted patients in Mumbai on 15 June 2026 .
+FALSE POSITIVE [DATE]: 2026
+FALSE POSITIVE [NAME]: Dr.
+FALSE NEGATIVE [DATE]: 15 June 2026
+FALSE NEGATIVE [LOCATION]: Mumbai
+
+NOTE 3
+Text: Ananya Iyer traveled from Bengaluru to Kolkata on 20 July 2026 .
+FALSE POSITIVE [DATE]: July 2026
+FALSE POSITIVE [NAME]: Ananya
+FALSE POSITIVE [NAME]: Iyer
+FALSE NEGATIVE [DATE]: 20 July 2026
+FALSE NEGATIVE [LOCATION]: Kolkata
+FALSE NEGATIVE [NAME]: Ananya Iyer
+
+NOTE 4
+Text: Rohan Gupta attended a conference in New Delhi on 05 August 2026 .
+FALSE NEGATIVE [LOCATION]: New Delhi
+
+NOTE 5
+Text: Priya Nair checked into a hotel in Hyderabad on 10 September 2026 .
+FALSE POSITIVE [DATE]: September 2026
+FALSE POSITIVE [NAME]: Priya
+FALSE POSITIVE [NAME]: Nair
+FALSE NEGATIVE [DATE]: 10 September 2026
+FALSE NEGATIVE [NAME]: Priya Nair
+
+NOTE 6
+Text: Vikram Patel visited the client office in Ahmedabad on 18 October 2026 .
+FALSE POSITIVE [DATE]: October 2026
+FALSE POSITIVE [NAME]: Vikram
+FALSE POSITIVE [NAME]: Patel
+FALSE NEGATIVE [DATE]: 18 October 2026
+FALSE NEGATIVE [LOCATION]: Ahmedabad
+FALSE NEGATIVE [NAME]: Vikram Patel
+
+NOTE 7
+Text: Neha Reddy arrived in Pune on 22 November 2026 for the meeting .
+FALSE POSITIVE [DATE]: November 2026
+FALSE NEGATIVE [DATE]: 22 November 2026
+FALSE NEGATIVE [LOCATION]: Pune
+
+NOTE 8
+Text: Amit Kumar took a flight to Jaipur on 02 December 2026 .
+FALSE POSITIVE [NAME]: Amit
+FALSE POSITIVE [NAME]: Kumar
+FALSE NEGATIVE [LOCATION]: Jaipur
+FALSE NEGATIVE [NAME]: Amit Kumar
+
+NOTE 9
+Text: Deepika Menon spoke at an event in Kochi on 14 January 2027 .
+FALSE POSITIVE [NAME]: Deepika
+FALSE POSITIVE [NAME]: Menon
+FALSE POSITIVE [NAME]: Kochi
+FALSE NEGATIVE [LOCATION]: Kochi
+FALSE NEGATIVE [NAME]: Deepika Menon
+
+NOTE 10
+Text: Siddharth Verma landed in Chandigarh on 08 February 2027 .
+FALSE POSITIVE [EMAIL]: Chandigarh
+FALSE POSITIVE [NAME]: Siddharth
+FALSE POSITIVE [NAME]: Verma
+FALSE NEGATIVE [LOCATION]: Chandigarh
+FALSE NEGATIVE [NAME]: Siddharth Verma
+
+NOTE 11
+Text: Kavita Joshi visited her family in Lucknow on 25 March 2027 .
+FALSE POSITIVE [DATE]: March 2027
+FALSE POSITIVE [NAME]: Kavita
+FALSE POSITIVE [NAME]: Joshi
+FALSE POSITIVE [NAME]: Lucknow
+FALSE NEGATIVE [DATE]: 25 March 2027
+FALSE NEGATIVE [LOCATION]: Lucknow
+FALSE NEGATIVE [NAME]: Kavita Joshi
+
+NOTE 12
+Text: Manoj Pillai attended a workshop in Thiruvananthapuram on 11 April 2027 .
+FALSE POSITIVE [DATE]: April 2027
+FALSE POSITIVE [NAME]: Manoj
+FALSE POSITIVE [NAME]: Pillai
+FALSE NEGATIVE [DATE]: 11 April 2027
+FALSE NEGATIVE [NAME]: Manoj Pillai
+
+NOTE 13
+Text: Sneha Deshmukh travelled to Bhopal on 30 May 2027 for official work .
+FALSE POSITIVE [DATE]: May 2027
+FALSE POSITIVE [NAME]: Sneha
+FALSE POSITIVE [NAME]: Deshmukh
+FALSE NEGATIVE [DATE]: 30 May 2027
+FALSE NEGATIVE [LOCATION]: Bhopal
+FALSE NEGATIVE [NAME]: Sneha Deshmukh
+
+NOTE 14
+Text: Kiran Rao met colleagues in Visakhapatnam on 14 June 2027 .
+FALSE POSITIVE [DATE]: June 2027
+FALSE POSITIVE [NAME]: Kiran
+FALSE POSITIVE [NAME]: Rao
+FALSE NEGATIVE [DATE]: 14 June 2027
+FALSE NEGATIVE [NAME]: Kiran Rao
+
+NOTE 16
+Text: Divya Sen arrived in Surat on 19 August 2027 .
+FALSE POSITIVE [DATE]: August 2027
+FALSE POSITIVE [NAME]: Divya
+FALSE POSITIVE [NAME]: Sen
+FALSE NEGATIVE [DATE]: 19 August 2027
+FALSE NEGATIVE [LOCATION]: Surat
+FALSE NEGATIVE [NAME]: Divya Sen
+
+NOTE 17
+Text: Rahul Mehta visited Nagpur on 27 September 2027 .
+FALSE POSITIVE [NAME]: Rahul
+FALSE POSITIVE [NAME]: Mehta
+FALSE POSITIVE [NAME]: Nagpur
+FALSE NEGATIVE [LOCATION]: Nagpur
+FALSE NEGATIVE [NAME]: Rahul Mehta
+
+NOTE 18
+Text: Pooja Bhat participated in a seminar in Indore on 04 October 2027 .
+FALSE POSITIVE [NAME]: Pooja
+FALSE POSITIVE [NAME]: Bhat
+FALSE NEGATIVE [NAME]: Pooja Bhat
+
+NOTE 19
+Text: Abhishek Choudhury flew to Bhubaneswar on 12 November 2027 .
+FALSE POSITIVE [DATE]: November 2027
+FALSE POSITIVE [NAME]: Abhishek
+FALSE POSITIVE [NAME]: Choudhury
+FALSE NEGATIVE [DATE]: 12 November 2027
+FALSE NEGATIVE [LOCATION]: Bhubaneswar
+FALSE NEGATIVE [NAME]: Abhishek Choudhury
+
+NOTE 20
+Text: Swati Ghosh visited Guwahati on 21 December 2027 .
+FALSE POSITIVE [DATE]: December 2027
+FALSE POSITIVE [NAME]: Swati
+FALSE POSITIVE [NAME]: Ghosh
+FALSE NEGATIVE [DATE]: 21 December 2027
+FALSE NEGATIVE [NAME]: Swati Ghosh
